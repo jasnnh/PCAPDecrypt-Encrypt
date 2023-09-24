@@ -6,8 +6,10 @@ If you have Wireshark downloaded we will be using the Tshark.exe file to decrypt
 
 
 Decrypting:
+
 tshark.exe -r input.pcap -x > output.txt
 
 
 Encrypting:
+
 text2pcap.exe -F pcap output.txt new.pcap
